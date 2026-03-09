@@ -1,13 +1,24 @@
+# Godot
 .godot/
-bin/
-/android/
-.git/
-.idea/
-.vs/
-publish/
-Properties/
-packages/
-.editorconfig
 *.import
 *.uid
+
+# .NET / C#
+bin/
+obj/
+publish/
+packages/
+Properties/PublishProfiles/
+*.pubxml.user
 *.user
+*.suo
+*.userprefs
+
+# IDE / Editor
+.idea/
+.vs/
+*.code-workspace
+
+# Platform / export output
+/android/
+*.pck
